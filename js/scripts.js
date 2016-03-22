@@ -38,4 +38,12 @@ $(document).ready(function() {
     $("#show-walrus-fat").toggle();
     $("#hide-walrus-fat").toggle();
   });
+
+  $("#second .clickhere").click(function(){
+    $(".picture").toggleClass("size");
+  });
+
+  $("#second .clickhere").click(function(){
+    $("body").toggleClass("background");
+  });
 });
