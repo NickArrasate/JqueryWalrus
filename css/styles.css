@@ -1,4 +1,4 @@
-#show-walrus {
+#show-walrus, #show-walrus-action, #show-walrus-fat, #show-walrus-baby  {
   display: none;
 }
 
@@ -9,4 +9,10 @@
 
 .clickable:hover {
   text-decoration: underline;
+}
+
+img {
+
+  height: 40%;
+  width: 40%;
 }

@@ -19,9 +19,23 @@ $(document).ready(function() {
   //   alert("This is an unordered list.");
   // });
 
-  $(".clickable").click(function(){
+  $("#first .clickable").click(function(){
     $("#show-walrus").toggle();
     $("#hide-walrus").toggle();
   });
 
+  $("#second .clickable").click(function(){
+    $("#show-walrus-action").toggle();
+    $("#hide-walrus-action").toggle();
+  });
+
+  $("#third .clickable").click(function(){
+    $("#show-walrus-baby").slideToggle();
+    $("#hide-walrus-baby").slideToggle();
+  });
+
+  $("#fourth .clickable").click(function(){
+    $("#show-walrus-fat").toggle();
+    $("#hide-walrus-fat").toggle();
+  });
 });
