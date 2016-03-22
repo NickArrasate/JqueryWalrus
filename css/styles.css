@@ -27,3 +27,8 @@ img {
   background-repeat:;
   background-size: 8%;
 }
+
+.newtext {
+  color: white;
+  text-shadow: 2px 2px black;
+}

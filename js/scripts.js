@@ -45,5 +45,6 @@ $(document).ready(function() {
 
   $("#second .clickhere").click(function(){
     $("body").toggleClass("background");
+    $(".container").toggleClass("newtext");
   });
 });
